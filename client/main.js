@@ -5,6 +5,7 @@ const goalInput = document.querySelector(`#goalsInput`)
 const goalsDiv = document.querySelector(`#goalsDiv`)
 const delInput = document.querySelector(`#delInput`)
 const delBtn = document.querySelector(`#delBtn`)
+const getGoalsBtn = document.querySelector(`#getGoalsBtn`)
 
 
 
@@ -92,6 +93,5 @@ complimentBtn.addEventListener('click', getCompliment)
 fortuneBtn.addEventListener('click', getFortune)
 goalBtn.addEventListener('click', addGoal)
 delBtn.addEventListener('click', deleteGoal)
+getGoalsBtn.addEventListener('click', getGoals)
 
-
-getGoals()
