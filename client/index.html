@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <br>
+    <button id="fortuneBtn">Get a fortune</button><br>
+
+    
+    <div id="goalTracker">
+      <h1>Let's Make a List of Goals:</h1>
+      <input type="text" id="goalsInput" placeholder="Enter your Goals">
+      <button id="goalsBtn">Add to Goals List</button>
+
+      
+      <div id="goals">
+        <h3 id="goalsH">My Goals:</h3>
+        <div id="goalsDiv"></div>
+      </div>
+
+      <h3>Delete Your Finished Goals</h3>
+      <input type="text" placeholder="Enter a number from the list" id="delInput">
+      <button id="delBtn">Remove From List</button>
+    </div>
+
+    
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
